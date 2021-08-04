@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>even and odd</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="shortcut icon" href="img/logo-1.png">
+        
+            <meta charset="UTF-8">
+            <meta name="robots" content="index, follow">
+        
+            <meta http-equiv="cache-control" content="no-cache">
+            <meta http-equiv="expires" content="5000000">
+            <!-- <meta http-equiv="refresh" content="5"> -->
+        
+            <meta name="keywords" content="byinghouse,textile,texsource">
+            <meta name="description" content="you learn every things about html">
+            <meta name="author" content="amanullah">
+            <meta name="copyrigth" content="www.mysite.com">
+            <meta name="revisit" content="5 days">
+        
+            <meta property="og:title" content="html learn" />
+            <meta property="og:site_name" content="adfas" />
+            <meta property="og:description" content="" />
+            <meta property="og:type" content="article" />
+            <meta property="og:url" content="http://" />
+            <meta property="og:image" content="http://" />
+            <meta property="og:image:width" content="600" />
+            <meta property="og:image:height" content="315" />
+        
+            <meta name="twitter:title" content="">
+            <meta name="twitter:description" content="">
+            <meta name="twitter:image" content="http://">
+            <meta name="twitter:card" content="summary_large_image">
+
+
+            <link rel="stylesheet" href="fonts/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.min.css">
+            <link rel="stylesheet" href="css/default.css">
+            <link rel="stylesheet" href="css/mobile_view.css">
+            <link rel="stylesheet" href="css/style.css">
+            
+
+            
+    </head>
+    <body>
+
+        <main class="main_body">
+            <div class="top">
+                <div class="top_content">
+                    <div class="left">
+                        <a href="#">
+                            <i class="fas fa-align-left"></i>
+                        </a>
+                    </div>
+                    <div class="center">
+                        <form action="#">
+                            <input type="text">
+                            <button><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                    <div class="right">
+                        <a href="#">
+                            <i class="fas fa-user-circle"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mid">
+                <div class="content_body">
+                    <div class="content_aliment">
+                        <form action="#" name="even_and_form">
+                            <div class="input_data">
+                                <label for="index">loop start:</label>
+                                <input type="number" name="index">
+                                <label for="range">loop stop:</label>
+                                <input type="number" name="range">
+                            </div>
+                            <div class="output_data">
+                                <div class="even_section">
+                                    <h1>even section</h1>
+                                    <div class="even_button">
+                                        <button type="button" onclick="while_even(+even_and_form.index.value, +even_and_form.range.value)">while loop</button>
+                                        <button type="button" onclick="do_while_even(+even_and_form.index.value, +even_and_form.range.value)">do while loop</button>
+                                        <button type="button" onclick="for_evens(+even_and_form.index.value, +even_and_form.range.value)">for loop</button>
+                                        <button type="button" onclick="recurcive_even(+even_and_form.index.value, +even_and_form.range.value)">recurciv func</button>
+                                    </div>
+                                    <h1>result</h1>
+                                    <div class="even_result">
+                                        <ul id="even_number">
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="odd_section">
+                                    <h1>odd section</h1>
+                                    <div class="odd_button">
+                                        <button type="button" onclick="while_odd(+even_and_form.index.value, +even_and_form.range.value)">while loop</button>
+                                        <button type="button" onclick="do_while_odd(+even_and_form.index.value, +even_and_form.range.value)">do while loop</button>
+                                        <button type="button" onclick="for_odds(+even_and_form.index.value, +even_and_form.range.value)">for loop</button>
+                                        <button type="button" onclick="recurcive_odd(+even_and_form.index.value, +even_and_form.range.value)" >recurciv func</button>
+                                    </div>
+                                    <h1>result</h1>
+                                    <div class="odd_result">
+                                        <ul id="odd_number">
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="botom_content">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-photo-video"></i>
+                                <span>media</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-book"></i>
+                                <span>books</span>
+                            </a>
+                        </li>
+                        <li class="home_button">
+                            <a href="#">
+                                <i class="fas fa-home"></i>
+                                <span>home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-info-circle"></i>
+                                <span>info</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-download"></i>
+                                <span>download</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        
+        <script src="js/loop.js"></script>
+    </body>
+</html>

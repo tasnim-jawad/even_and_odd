@@ -1,0 +1,141 @@
+:root {
+    --pg: #555555;
+    --brand1: #ff0000;
+    --brand2: #3f51b5;
+    --brand3: blue;
+    --white: #ffffff;
+    --black: #353535;
+    --border: 1px solid red;
+    --button: red;
+}
+
+/* .content_aliment{} */
+/* .content_aliment form{} */
+.content_aliment form .input_data{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px;
+    /* border: 1px solid rgb(206, 113, 113); */
+    border-radius: 5px;
+    background-color: #0800ff57;
+    border-radius: 10px;
+}
+.content_aliment form .input_data label{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.content_aliment form .input_data input{
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0px;
+    box-shadow: 0px 0px 5px #000000;
+    border: 1px solid #2196f3;
+    background: rgb(255,255,255);
+    
+}
+.content_aliment form .output_data{
+    /* border: var(--border); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.content_aliment form .output_data .even_section{
+    /* border: 1px solid green; */
+    width: 48%;
+    
+}
+.content_aliment form .output_data .even_section h1{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration: underline;
+    background-color: rgb(186, 179, 212);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.content_aliment form .output_data .even_section .even_button {
+    /* border: 1px solid rgb(170, 223, 24); */
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #0800ff57;
+    border-radius: 10px;
+}
+.content_aliment form .output_data .even_section .even_button button {
+    display: inline-block;
+    width: 95%;
+    margin: 5px 0px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: white;
+    border: 1px solid grey;
+    box-shadow: 0px 5px 5px rgb(0 0 0 / 40%);
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.content_aliment form .output_data .even_section .even_result{
+    /* border: 1px solid rgb(24, 183, 223); */
+    padding: 10px;
+    width: 100%;
+    background-color: #0800ff57;
+    border-radius: 10px;
+
+}
+.content_aliment form .output_data .even_section .even_result ul{}
+.content_aliment form .output_data .even_section .even_result ul li{
+    display: inline-block;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid rgb(23, 174, 201);
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.content_aliment form .output_data .odd_section{
+    /* border: 1px solid green; */
+    width: 48%;
+}
+.content_aliment form .output_data .odd_section h1{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration: underline;
+    background-color: rgb(186, 179, 212);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.content_aliment form .output_data .odd_section .odd_button{
+    /* border: 1px solid rgb(170, 223, 24); */
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #0800ff57;
+    border-radius: 10px;
+}
+.content_aliment form .output_data .odd_section .odd_button button{
+    display: inline-block;
+    width: 95%;
+    margin: 5px 0px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: white;
+    border: 1px solid grey;
+    box-shadow: 0px 5px 5px rgb(0 0 0 / 40%);
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.content_aliment form .output_data .odd_section .odd_result{
+    /* border: 1px solid rgb(24, 183, 223); */
+    padding: 10px;
+    background-color: #0800ff57;
+    border-radius: 10px;
+    
+}
