@@ -87,7 +87,7 @@
     border-radius: 10px;
 
 }
-.content_aliment form .output_data .even_section .even_result ul{}
+/* .content_aliment form .output_data .even_section .even_result ul{} */
 .content_aliment form .output_data .even_section .even_result ul li{
     display: inline-block;
     background-color: white;
@@ -138,4 +138,23 @@
     background-color: #0800ff57;
     border-radius: 10px;
     
+}
+.content_aliment form .output_data .odd_section .odd_result ul li{
+    display: inline-block;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid rgb(23, 174, 201);
+    border-radius: 50%;
+    margin: 5px;
+}
+.clear_section{
+    border: var(--border);
+    margin-top: 30px;
+}
+.clear_section .clear_wrapper{
+    border: 1px solid green;
+    text-align: center;
+}
+.clear_section .clear_wrapper .clear{
+    padding: 10px 70px;
 }
