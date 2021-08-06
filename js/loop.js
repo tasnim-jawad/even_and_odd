@@ -135,3 +135,12 @@ const recurcive_odd =(index,range)=>{
 }
 
 //recurcive function end
+//clear start
+function remover() {
+    document.getElementById("even_number").innerHTML = "";
+    document.getElementById("odd_number").innerHTML = "";
+    // document.getElementById("index").value = "";
+    // document.getElementById("range").value = "";
+}
+
+//clear end
